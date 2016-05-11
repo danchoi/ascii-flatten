@@ -30,7 +30,7 @@ mappings, please do.
 
 When performance matters, use 
 
-    Data.Text.map :: (Char -> Char) -> Text Text
+    Data.Text.map :: (Char -> Char) -> Text -> Text
 
 ## Command line usage
 
