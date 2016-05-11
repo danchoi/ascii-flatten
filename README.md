@@ -32,6 +32,13 @@ use from the command line and in shell scripts:
     $ echo café | ascii-flatten
     cafe
 
+## Edge cases
+
+Note that currently ascii-flatten leaves alone characters that have no simple
+transliteration, e.g.
+
+    echo 'How are you? ¿Cómo está usted? ' | ascii-flatten
+    How are you? ¿Como esta usted? 
 
 ## Code generation
 
