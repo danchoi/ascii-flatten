@@ -1,8 +1,8 @@
 name:                ascii-flatten
 version:             0.1.1.0
-synopsis:            Flattens European non-ASCII characaters into ASCII
+synopsis:            Flattens European non-ASCII characters into ASCII
 homepage:            https://github.com/danchoi/ascii-flatten
-description:         Flattens European non-ASCII characaters into ASCII
+description:         Flattens European non-ASCII characters into ASCII
 license:             MIT
 license-file:        LICENSE
 author:              Daniel Choi
