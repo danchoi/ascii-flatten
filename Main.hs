@@ -7,6 +7,6 @@ import Data.Char
 main :: IO ()
 main = 
     T.getContents >>=
-    return . (T.map asciiFlattenCI) >>=
+    return . (T.map asciiFlatten) >>=
     T.putStr
 

@@ -7,7 +7,10 @@ main = interact (unlines . map process . lines)
 
 process :: String -> String
 process s = 
-    let (x:ys) = words s
+    let (x:[y]:_) = words s
         s' :: Char 
         s' = chr . read $ x 
-    in (s':' ':concat ys)
+        y' = if isUpper s' 
+             then toUpper y 
+             else y
+    in (s':' ':[y'])

@@ -14,16 +14,11 @@ http://yob.id.au/2008/05/08/thinking-sphinx-and-unicode.html
 
 ```haskell
 :m + Data.Char.AsciiFlatten
-ghci> map asciiFlattenCI "café"
+ghci> map asciiFlatten "café"
 "cafe"
-ghci> map asciiFlattenCI "Übermensch"
-"ubermensch"
+ghci> map asciiFlatten "Übermensch"
+"Ubermensch"
 ```
-
-Note that currently, all characters are flattened to lower case ASCII, because
-my source data has only case-insensitive mappings to lowercase ascii
-characters. If anyone wants to contribute case-sensitive conversion code
-mappings, please do.
 
 When performance matters, use 
 
