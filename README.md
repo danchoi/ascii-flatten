@@ -40,6 +40,6 @@ use from the command line and in shell scripts:
 
 ## Code generation
 
-The code for `asciiFlatten` is generated using the `build.sh` script in the
+The code for this package is generated using the `build.sh` script in the
 project directory.
 
