@@ -1,7 +1,7 @@
 # ascii-flatten
 
 This simple library provides a function to flatten non-ASCII European
-characters into nearest US-ASCII equivlent.
+characters into nearest US-ASCII equivalent.
 
 Hackage package: http://hackage.haskell.org/package/ascii-flatten-0.1.0.0
 
