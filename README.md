@@ -21,7 +21,7 @@ ghci> map asciiFlattenCI "Übermensch"
 ```
 
 Note that currently, all characters are flattened to lower case ASCII, because
-my source data only as case-insensitive mappings to lowercase ascii
+my source data has only case-insensitive mappings to lowercase ascii
 characters. If anyone wants to contribute case-sensitive conversion code
 mappings, please do.
 
