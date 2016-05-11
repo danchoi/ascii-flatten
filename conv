@@ -1,0 +1,7 @@
+#!/usr/bin/env awk -f
+{
+cmd = "echo 'ibase=16; " $1 "'  |bc "
+cmd | getline charcode 
+close(cmd)
+print charcode " " $2
+}
