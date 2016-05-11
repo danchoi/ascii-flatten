@@ -14,9 +14,6 @@ http://yob.id.au/2008/05/08/thinking-sphinx-and-unicode.html
 
 ```haskell
 :m + Data.Char.AsciiFlatten
-...
-Ok, modules loaded: Data.Char.AsciiFlatten, Main.
-ghci> :m + Data.Char.AsciiFlatten 
 ghci> map asciiFlattenCI "café"
 "cafe"
 ghci> map asciiFlattenCI "Übermensch"
