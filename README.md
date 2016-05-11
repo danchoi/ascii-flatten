@@ -3,6 +3,8 @@
 This simple library provides a function to flatten non-ASCII European
 characters into nearest US-ASCII equivlent.
 
+Hackage package: http://hackage.haskell.org/package/ascii-flatten-0.1.0.0
+
 See source for `Data.Char.AsciiFlatten` for the character conversions.
 
 The character translation table is derived from this URL:
