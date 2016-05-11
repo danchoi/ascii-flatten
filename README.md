@@ -37,7 +37,7 @@ use from the command line and in shell scripts:
 Note that currently ascii-flatten leaves alone characters that have no simple
 transliteration, e.g.
 
-    echo 'How are you? ¿Cómo está usted? ' | ascii-flatten
+    $ echo 'How are you? ¿Cómo está usted? ' | ascii-flatten
     How are you? ¿Como esta usted? 
 
 ## Code generation
