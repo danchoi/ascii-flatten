@@ -42,6 +42,6 @@ transliteration, e.g.
 
 ## Code generation
 
-The code for this package is generated using the `build.sh` script in the
-project directory.
+The bulk of the code for this package is generated using the `build.sh` script
+in the project directory.
 
